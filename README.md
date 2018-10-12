@@ -12,7 +12,7 @@ Also reference pages are listed on #Pages collect resources for SLAM
 - [Papers](#papers)
 - [Books](#books)
 - [Pages collect resources for SLAM](#slamlist)
-- [Toolkit](#library)
+- [Toolkit](#toolkit)
 ___
 <br>
 
