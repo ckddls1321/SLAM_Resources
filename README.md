@@ -5,9 +5,9 @@ Inspired by [Event-based vision resources](https://github.com/uzh-rpg/event-base
 
 Also reference pages are listed on [Pages collect resources for SLAM](#slamlist)
 
-**What I cannot create, I do not understand.**
+**What I cannot create, I do not understand.** - richard feynman
 
-**do the simplest thing that could possibly work**
+**Do the simplest thing that could possibly work** 
 
 ## Table of Contents:
 - [Algorithms](#algorithms)
