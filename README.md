@@ -3,7 +3,7 @@ SLAM Resources to follow up current SLAM trends and papers.
 
 Inspired by [Event-based vision resources](https://github.com/uzh-rpg/event-based_vision_resources)
 
-Also reference pages are listed on #Pages collect resources for SLAM
+Also reference pages are listed on [Pages collect resources for SLAM](#slamlist)
 
 ## Table of Contents:
 - [Algorithms](#algorithms)
