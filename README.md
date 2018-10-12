@@ -5,21 +5,31 @@ Inspired by [Event-based vision resources](https://github.com/uzh-rpg/event-base
 
 Also reference pages are listed on [Pages collect resources for SLAM](#slamlist)
 
+**What I cannot create, I do not understand.**
+
+**do the simplest thing that could possibly work**
+
 ## Table of Contents:
 - [Algorithms](#algorithms)
 - [Datasets and Simulators](#datasets)
 - [Evaluation](#evaluation)
 - [Workshops](#workshops)
 - [Tutorials](#tutorials)
+- [Survey](#survey)
 - [Papers](#papers)
 - [Books](#books)
 - [Pages collect resources for SLAM](#slamlist)
 - [Toolkit](#toolkit)
+- [Videos, Lectures](#lecture)
 ___
 <br>
 
 <a name="algorithms"></a>
 ## Algorithms
+- [Todo Later]
+
+<a name="survey"></a>
+## Survey
 - [Todo Later]
 
 <a name="papers"></a>
@@ -59,7 +69,12 @@ ___
 ## resource pages that I refer to create this slam list pages 
 - [awesome-SLAM-list](https://github.com/OpenSLAM/awesome-SLAM-list)
 
-
 <a name="toolkit"></a>
 ## Toolkis and Libraries for SLAM
 - [Todo Later]
+
+<a name="lecture"></a>
+## Lectures
+- [Todo Later]
+## Videos 
+- [Todo Later] 
