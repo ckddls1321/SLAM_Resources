@@ -16,19 +16,19 @@ ___
 <br>
 
 <a name="algorithms"></a>
-# Algorithms
+## Algorithms
 - [Todo Later]
 
 <a name="papers"></a>
-# Papers 
+## Papers 
 - [Todo Later]
     
 <a name="evaluation"></a>
-# Evaluation
+## Evaluation
 - [Todo Later]
 
 <a name="datasets"></a>
-# Datasets and Simulators 
+## Datasets and Simulators 
 - [Awesome SLAM Dataset](https://sites.google.com/view/awesome-slam-datasets/) : 
     - [2018 TUM Visual Inertial Dataset](https://vision.in.tum.de/data/datasets/visual-inertial-dataset) : Stereo,IMU,Calibrated(+Photometric)
     - [2018 MVSEC : Multi Vehicle Stereo Event Dataset](https://daniilidis-group.github.io/mvsec/) : Stereo, Event, IMU
@@ -41,19 +41,19 @@ ___
     - [2013 KITTI Dataset](http://www.cvlibs.net/datasets/kitti/index.php)
     
 <a name="workshops"></a>
-# Workshops 
+## Workshops 
 - [2014 CVPR Workshop and Tutorials](http://frc.ri.cmu.edu/~kaess/vslam_cvpr14/)
 
 <a name="tutorials"></a>
-# Tutorials
+## Tutorials
 - [TODO-later]
 
 <a name="books"></a>
-# Books
+## Books
 - [Todo Later]
 
 <a name="slamlist"></a>
-# resource pages that I refer to create this slam list pages 
+## resource pages that I refer to create this slam list pages 
 - [awesome-SLAM-list](https://github.com/OpenSLAM/awesome-SLAM-list)
 
 
