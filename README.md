@@ -1,5 +1,5 @@
 # SLAM_Resources
-SLAM Resources to follow up current SLAM trends and papers.
+Personal page of SLAM Resources to follow up current SLAM trends and papers.
 
 Inspired by [Event-based vision resources](https://github.com/uzh-rpg/event-based_vision_resources)
 
@@ -30,7 +30,7 @@ ___
 
 <a name="survey"></a>
 ## Survey or Tutorial papers for slam users
-- [Past, Present, and Future of Simultaneous Localization and Mapping: Toward the Robust-Perception Age](https://arxiv.org/pdf/1606.05830.pdf)
+- [Past, Present, and Future of Simultaneous Localization and Mapping: Toward the Robust-Perception Age](https://arxiv.org/pdf/1606.05830.pdf) 
 - [Keyframe-based monocular SLAM: design, survey, and future directions](https://arxiv.org/pdf/1607.00470.pdf)
 - [Local Invariant Feature Detectors: A Survey](http://homes.esat.kuleuven.be/~tuytelaa/FT_survey_interestpoints08.pdf)
 - [Visual Odometry Part I: The First 30 Years and Fundamentals](https://www.ifi.uzh.ch/dam/jcr:5759a719-55db-4930-8051-4cc534f812b1/VO_Part_I_Scaramuzza.pdf)
@@ -40,31 +40,31 @@ ___
 - [Visual SLAM Algorithms : a survey from 2010 to 2016](https://ipsjcva.springeropen.com/articles/10.1186/s41074-017-0027-2) 
 
 <a name="papers"></a>
-## Papers 
-2004 : Visual Odometry(Nister, CVPR 04)
-2006 : Scalable monocular SLAM(Eade,Drummond,CVPR 06)
-2007 : PTAM(Klein,Murray, ISMAR 07)채
-2007 : MonoSLAM(Davison,Reid,Molton,Stasse, PAMI 07)
-2011 : DTAM(Newcombe,Lovegrove,Davison,ICCV 11)
-2013 : Semi-Dense Visual Odometry(J. Engel, J. Sturm, Davision, ICCV 13)
-2014 : SVO(Forster,Pizzoli,Scarammuzza, ICRA 14)
-       LSD-SLAM(Jacob Engel, T.Schoeps, Davision, ECCV 14)
-       REMODE(M. Pizzoli, C. Forster, D. Scrammuza, ICRA 14)
-       DTSLAM(Herrera C., D., Kim, K., Kannala, J., Pulli, K., Heikkila, J., 3DV, 14)
-2015 : ORB_SLAM(Raul Mur-Artal, J. Montiel, J. Tardos, IEEE TRO 15)
-       OKVIS(S. Leutenegger, S. Lynen, M. Bosse, R. Siegwart, P.Furgale, IJRR 15)
-       DPPTAM(Concha, Alejo and Civera, Javier, IROS 15)
-       SOFT2 : Stereo odometry based on careful feature selection and tracking(I Cvišić, I Petrović, ECCV 15)
-2016 : EVO(H. Rebecq, T. Horstschaefer, G. Gallego, D. Scaramuzza, IEEE RA-L 16)
-2017 : DSO(Jacob Engel, V. Kltun, Davison, PAMI 17)
-       ORB_SLAM2(R Mur-Artal, JD Tardós, IEEE TRO 17)
-       Real-time VIO for Event Cameras using Keyframe-based Nonlinear Optimization(H.Rebecq, T. Horstschaefer, D. Scaramuzza, BMVC 17)
-       On-Manifold Preintegration for Real-Time VIO (C. Forster, L. Carlone, F. Dellaert, D. Scaramuzza, IEEE RA-L 17, Best Paper)
-       SVO2 : SVO for Monocular and Multi-Camera Systems(C. Forster, Z. Zhang, M. Gassner, M. Werlberger, D. Scaramuzza, IEEE TRO 17)
-2018 : VINS-Mono(T. Qin, Tong and Li, Peiliang, Shen, Shaojie, IEEE TRO 18)
-       Ultimate SLAM?(T. Rosinol Vidal, H.Rebecq, T. Horstschaefer, D. Scaramuzza, IEEE RA-L 18)
-       Event-based, 6-DOF Camera Tracking from Photometric Depth Maps
-       (G. Gallego, Jon E. A. Lund, E. Mueggler, H.Rebecq, T. Delbruck, D. Scaramuzza, PAMI 18)
+## Papers : ordered by year but not strictly ordered, not fully collected.
+- [Visual Odometry, Nister, CVPR 04](https://www.computer.org/csdl/proceedings/cvpr/2004/2158/01/01315094.pdf) 
+- [Scalable monocular SLAM, E. Eade,T. Drummond, CVPR 06](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.141.7753&rep=rep1&type=pdf)
+- [Parallel Tracking and Mapping(PTAM) for Small AR Workspaces, Georg Klein, David Murray, ISMAR 07](https://www.robots.ox.ac.uk/~vgg/rg/papers/klein_murray__2007__ptam.pdf)
+- [MonoSLAM, AJ Davison, Reid, Molton, Stasse, PAMI 07](https://www.doc.ic.ac.uk/~ajd/Publications/davison_etal_pami2007.pdf) 
+- [DTAM: Dense Tracking and Mapping in Real-Time, RA Newcombe, Steven J. Lovegrove, AJ Davison, ICCV 11](https://www.robots.ox.ac.uk/~vgg/rg/papers/newcombe_davison__2011__dtam.pdf)
+- [Semi-Dense Visual Odometry, J. Engel, J. Sturm, AJ Davision, ICCV 13](https://vision.in.tum.de/_media/spezial/bib/engel2013iccv.pdf)
+- [SVO: Fast Semi-Direct Monocular Visual Odometry, C Forster, M. Pizzoli, D. Scarammuzza, ICRA 14](https://www.ifi.uzh.ch/dam/jcr:e9b12a61-5dc8-48d2-a5f6-bd8ab49d1986/ICRA14_Forster.pdf) 
+- [LSD-SLAM: Large-Scale Direct Monocular SLAM, J. Engel, T.Schoeps, AJ Davision, ECCV 14](https://vision.in.tum.de/_media/spezial/bib/engel14eccv.pdf)
+- [REMODE, M. Pizzoli, C. Forster, D. Scrammuza, ICRA 14](http://rpg.ifi.uzh.ch/docs/ICRA14_Pizzoli.pdf) 
+- [ORB_SLAM, R. Mur-Artal, J. Montiel,  JD Tardós, IEEE TRO 15](https://arxiv.org/pdf/1502.00956)
+- [OKVIS, S. Leutenegger, S. Lynen, M. Bosse, R. Siegwart, P.Furgale, IJRR 15)(http://www.roboticsproceedings.org/rss09/p37.pdf)
+- [DPPTAM, Concha, Alejo and Civera, Javier, IROS 15](http://webdiis.unizar.es/~jcivera/papers/concha_civera_iros15.pdf)
+- [SOFT2 : Stereo odometry based on careful feature selection and tracking, I Cvišić, I Petrović, ECCV 15](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Cvisic2015ECMR.pdf)
+- [EVO: A Geometric Approach to Event-Based 6-DOF Parallal Tracking and Mapping in Real-time, H. Rebecq, T. Horstschaefer, G. Gallego, D. Scaramuzza, IEEE RA-L 16](http://rpg.ifi.uzh.ch/docs/RAL16_EVO.pdf)
+- [On-Manifold Preintegration for Real-Time VIO, C. Forster, L. Carlone, F. Dellaert, D. Scaramuzza, IEEE RA-L 17](http://rpg.ifi.uzh.ch/docs/TRO16_forster.pdf) 
+- [ORB_SLAM2, R Mur-Artal, JD Tardós, IEEE TRO 17](https://arxiv.org/pdf/1610.06475.pdf)
+- [Direct Sparse Odometry, J. Engel, V. Kltun, AJ Davison, PAMI 17](https://vision.in.tum.de/research/vslam/dso)
+- [Real-time VIO for Event Cameras using Keyframe-based Nonlinear Optimization, H.Rebecq, T. Horstschaefer, D. Scaramuzza, BMVC 17](http://rpg.ifi.uzh.ch/docs/BMVC17_Rebecq.pdf)    
+- [SVO for Monocular and Multi-Camera Systems, C. Forster, Z. Zhang, M. Gassner, M. Werlberger, D. Scaramuzza, IEEE TRO 17](http://rpg.ifi.uzh.ch/docs/TRO16_Forster-SVO.pdf)
+- [VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator, T. Qin, Tong and Li, Peiliang, Shen, Shaojie, IEEE TRO 18](https://arxiv.org/pdf/1708.03852) 
+- [Ultimate SLAM?
+Combining Events, Images, and IMU for Robust
+Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Horstschaefer, D. Scaramuzza, IEEE RA-L 18](https://arxiv.org/pdf/1709.06310.pdf)
+- [Event-based, 6-DOF Camera Tracking from Photometric Depth Maps, Gallego, Jon E. A. Lund, E. Mueggler, H.Rebecq, T. Delbruck, D. Scaramuzza, PAMI 18](http://rpg.ifi.uzh.ch/docs/PAMI17_Gallego.pdf)
     
 <a name="evaluation"></a>
 ## Evaluation
@@ -97,7 +97,7 @@ ___
 
 <a name="books"></a>
 ## Books
-- [slambook](), [source](https://github.com/gaoxiang12/slambook)
+- [slambook-not translated yet](), [source](https://github.com/gaoxiang12/slambook)
 
 <a name="slamlist"></a>
 ## resource pages that I refer to create this slam list pages 
@@ -105,11 +105,14 @@ ___
 
 <a name="toolkit"></a>
 ## Toolkis and Libraries for SLAM
-- [Todo Later]
+- [OpenCV](https://opencv.org/)
 
 <a name="lecture"></a>
 ## Lectures
-- [Todo Later]
+- [Multiple View Geometry, TUM, 2014](https://www.youtube.com/watch?v=RDkwklFGMfo&list=PLTBdjV_4f-EJn6udZ34tht9EVIW7lbeo4)
 
-## Videos 
-- [Todo Later] 
+## Videos
+- [ARKit: Understanding ARKit Tracking and Dtection](https://developer.apple.com/videos/play/wwdc2018/610/) 
+
+## Applications
+- [Todo] 
