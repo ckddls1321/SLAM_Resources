@@ -31,9 +31,8 @@ ___
 - [Todo Later]
 
 <a name="models"></a>
-## Camera Models
-- [Todo Later]
-## Undistort Models
+## Sensor Models 
+### Camera Models & Undistorttion Models
 - [Todo Later]
 
 <a name="calibration"></a>
