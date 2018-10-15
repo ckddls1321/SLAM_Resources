@@ -11,6 +11,7 @@ Also reference pages are listed on [Pages collect resources for SLAM](#slamlist)
 
 ## Table of Contents:
 - [Algorithms](#algorithms)
+- [Sensor Model](#models)
 - [Datasets and Simulators](#datasets)
 - [Calibration](#calibration)
 - [Evaluation](#evaluation)
@@ -29,12 +30,30 @@ ___
 ## Algorithms
 - [Todo Later]
 
+<a name="models"></a>
+## Camera Models
+- [Todo Later]
+## Undistort Models
+- [Todo Later]
+
 <a name="calibration"></a>
 ## Calibration
-### Geometric Calibration
-- [Todo Later]
+### Geometric Calibration : Reprojection Error
+- [GML: C++ Calibration Toolbox](https://graphics.cs.msu.ru/en/node/909)
+- [ROS camera calibration](http://wiki.ros.org/camera_calibration)
+- [Camera Calibration Toolbox for Matlab](http://www.vision.caltech.edu/bouguetj/calib_doc/)
+- [CamOdoCal](https://github.com/hengli/camodocal)
+- [OCamCalib: Omni-Camera Calibration](https://sites.google.com/site/scarabotix/ocamcalib-toolbox)
 ### Photometric Calibration
-- [Todo Later]
+- [TUM, Online Photometric calibration](https://github.com/tum-vision/online_photometric_calibration)
+### Visual-Inertial Calibration : Reprojection Error + Extrinsic of Camera-IMU
+- [Kalibr](The Kalibr calibration toolbox)
+- [Vicalib](https://github.com/arpg/vicalib)
+### IMU Calibration - Not sure... 
+- [IMUSensorModels-Data_Analysis_Tools](https://github.com/hanley6/IMUSensorModels)
+- [Kalibr_allan](https://github.com/rpng/kalibr_allan)
+- [NaveGO: an open-source MATLAB/GNU Octave toolbox for processing INS and performing IMU analysis](https://github.com/rodralez/NaveGo)
+- [imu_utils : ROS package tool to analyze the IMU performance](https://github.com/gaowenliang/imu_utils)
 
 <a name="survey"></a>
 ## Survey or Tutorial papers for slam users
