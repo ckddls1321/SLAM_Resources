@@ -132,12 +132,17 @@ Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Hors
 
 <a name="toolkit"></a>
 ## Toolkits and Libraries for SLAM
+### Computer Vision 
 - [OpenCV-Computer Vision](https://opencv.org/)
 - [MexOpenCV-Matlab mex functions for OpenCV](https://github.com/kyamagu/mexopencv) 
+### Mathmatics
 - [Eigen-Linear Algebra](http://eigen.tuxfamily.org/index.php?title=Main_Page)
 - [Sophus-Lie Groups using Eigen](https://github.com/strasdat/Sophus)
+### Optimization Solver
 - [Ceres-NLLS Solver library](https://github.com/ceres-solver/ceres-solver)
 - [g2o: A General Framework for Graph Optimization](https://github.com/RainerKuemmerle/g2o)
+### 3D Data Processing
+- [Open3D](http://www.open3d.org/)
 
 <a name="lecture"></a>
 ## Lectures
