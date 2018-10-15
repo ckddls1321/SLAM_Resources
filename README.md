@@ -12,6 +12,7 @@ Also reference pages are listed on [Pages collect resources for SLAM](#slamlist)
 ## Table of Contents:
 - [Algorithms](#algorithms)
 - [Datasets and Simulators](#datasets)
+- [Calibration](#calibration)
 - [Evaluation](#evaluation)
 - [Workshops](#workshops)
 - [Tutorials](#tutorials)
@@ -26,6 +27,13 @@ ___
 
 <a name="algorithms"></a>
 ## Algorithms
+- [Todo Later]
+
+<a name="calibration"></a>
+## Calibration
+### Geometric Calibration
+- [Todo Later]
+### Photometric Calibration
 - [Todo Later]
 
 <a name="survey"></a>
@@ -51,7 +59,7 @@ ___
 - [LSD-SLAM: Large-Scale Direct Monocular SLAM, J. Engel, T.Schoeps, AJ Davision, ECCV 14](https://vision.in.tum.de/_media/spezial/bib/engel14eccv.pdf)
 - [REMODE, M. Pizzoli, C. Forster, D. Scrammuza, ICRA 14](http://rpg.ifi.uzh.ch/docs/ICRA14_Pizzoli.pdf) 
 - [ORB_SLAM, R. Mur-Artal, J. Montiel,  JD Tardós, IEEE TRO 15](https://arxiv.org/pdf/1502.00956)
-- [OKVIS, S. Leutenegger, S. Lynen, M. Bosse, R. Siegwart, P.Furgale, IJRR 15)(http://www.roboticsproceedings.org/rss09/p37.pdf)
+- [OKVIS, S. Leutenegger, S. Lynen, M. Bosse, R. Siegwart, P.Furgale, IJRR 15](http://www.roboticsproceedings.org/rss09/p37.pdf)
 - [DPPTAM, Concha, Alejo and Civera, Javier, IROS 15](http://webdiis.unizar.es/~jcivera/papers/concha_civera_iros15.pdf)
 - [SOFT2 : Stereo odometry based on careful feature selection and tracking, I Cvišić, I Petrović, ECCV 15](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Cvisic2015ECMR.pdf)
 - [EVO: A Geometric Approach to Event-Based 6-DOF Parallal Tracking and Mapping in Real-time, H. Rebecq, T. Horstschaefer, G. Gallego, D. Scaramuzza, IEEE RA-L 16](http://rpg.ifi.uzh.ch/docs/RAL16_EVO.pdf)
@@ -104,8 +112,13 @@ Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Hors
 - [awesome-SLAM-list](https://github.com/OpenSLAM/awesome-SLAM-list)
 
 <a name="toolkit"></a>
-## Toolkis and Libraries for SLAM
-- [OpenCV](https://opencv.org/)
+## Toolkits and Libraries for SLAM
+- [OpenCV-Computer Vision](https://opencv.org/)
+- [MexOpenCV-Matlab mex functions for OpenCV](https://github.com/kyamagu/mexopencv) 
+- [Eigen-Linear Algebra](http://eigen.tuxfamily.org/index.php?title=Main_Page)
+- [Sophus-Lie Groups using Eigen](https://github.com/strasdat/Sophus)
+- [Ceres-NLLS Solver library](https://github.com/ceres-solver/ceres-solver)
+- [g2o: A General Framework for Graph Optimization](https://github.com/RainerKuemmerle/g2o)
 
 <a name="lecture"></a>
 ## Lectures
