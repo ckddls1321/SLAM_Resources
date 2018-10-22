@@ -23,6 +23,7 @@ Also reference pages are listed on [Pages collect resources for SLAM](#slamlist)
 - [Pages collect resources for SLAM](#slamlist)
 - [Toolkit](#toolkit)
 - [Videos, Lectures](#lecture)
+- [Visualization](#visualization)
 ___
 <br>
 
@@ -145,13 +146,17 @@ Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Hors
 - [g2o: A General Framework for Graph Optimization](https://github.com/RainerKuemmerle/g2o)
 ### 3D Data Processing
 - [Open3D](http://www.open3d.org/)
+- [Point Cloud Library](http://pointclouds.org/)
 
 <a name="lecture"></a>
 ## Lectures
 - [Multiple View Geometry, TUM, 2014](https://www.youtube.com/watch?v=RDkwklFGMfo&list=PLTBdjV_4f-EJn6udZ34tht9EVIW7lbeo4)
-
 ## Videos
 - [ARKit: Understanding ARKit Tracking and Dtection](https://developer.apple.com/videos/play/wwdc2018/610/) 
 
+<a name="visualization"></a>
+## Visualization
+
+<a name="app"></a>
 ## Applications
 - [Todo] 
