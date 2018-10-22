@@ -33,7 +33,9 @@ ___
 <a name="models"></a>
 ## Sensor Models 
 ### Camera Models & Undistorttion Models
-- [Todo Later]
+- [Image_Undistorter](https://github.com/ethz-asl/image_undistort)
+- [Camera Models](https://github.com/gaowenliang/-camera_model) - modified version of CamOdoCal 
+- ROS Image Proc => Wiki Documentation of ROS [image pipeline](http://wiki.ros.org/image_pipeline/CameraInfo) 
 
 <a name="calibration"></a>
 ## Calibration
