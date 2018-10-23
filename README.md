@@ -29,27 +29,27 @@ ___
 
 <a name="algorithms"></a>
 ## Algorithms
-- ### Initialization
+### Initialization
 
-- ### Tracking
+### Tracking
 - #### Data Association
 - ##### Direct Dense
-##### Direct Sparse
-##### Feature (Sparse)
-###### Corner Selection
-###### Descriptors
-##### Feature Match
-#### Pose Estimation 
-##### Motion Prior 
+- ##### Direct Sparse
+- ##### Feature (Sparse)
+- ###### Corner Selection
+- ###### Descriptors
+- ##### Feature Match
+- #### Pose Estimation 
+- ##### Motion Prior 
 
 ### Mapping
-#### Map Type
-#### Map Generation
-#### Map Manage & Optimization 
+- #### Map Type
+- #### Map Generation
+- #### Map Manage & Optimization 
 
 ### Global Consistency 
-#### Failure Recovery
-#### Loop Closure 
+- #### Failure Recovery
+- #### Loop Closure
 
 <a name="models"></a>
 ## Sensor Models 
