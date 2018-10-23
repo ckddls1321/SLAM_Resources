@@ -197,10 +197,3 @@ Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Hors
 ### Visualize GN-Optimization 
 ### Visualize Pose & 3D Map 
 ### Visualize Tracking
-
-<a name="app"></a>
-## Applications
-- ARKit : 
-- ARCore : 
-- VR : 
-- Robotics :  
