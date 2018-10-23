@@ -33,14 +33,14 @@ ___
 
 ### Tracking
 - #### Data Association
-- ##### Direct Dense
-- ##### Direct Sparse
-- ##### Feature (Sparse)
-- ###### Corner Selection
-- ###### Descriptors
-- ##### Feature Match
+  - ##### Direct Dense
+  - ##### Direct Sparse
+  - ##### Feature (Sparse)
+    - ###### Corner Selection
+    - ###### Descriptors
+  - ##### Feature Match
 - #### Pose Estimation 
-- ##### Motion Prior 
+  - ##### Motion Prior 
 
 ### Mapping
 - #### Map Type
