@@ -18,6 +18,7 @@ Also reference pages are listed on [Pages collect resources for SLAM](#slamlist)
 - [Workshops&Tutorials](#workshops)
 - [Survey](#survey)
 - [Papers](#papers)
+- [Deep Learning Related SLAM](#deepslam)
 - [Books](#books)
 - [Pages collect resources for SLAM](#slamlist)
 - [Toolkit](#toolkit)
@@ -134,6 +135,7 @@ ___
 Combining Events, Images, and IMU for Robust
 Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Horstschaefer, D. Scaramuzza, IEEE RA-L 18](https://arxiv.org/pdf/1709.06310.pdf)
 - [Event-based, 6-DOF Camera Tracking from Photometric Depth Maps, Gallego, Jon E. A. Lund, E. Mueggler, H.Rebecq, T. Delbruck, D. Scaramuzza, PAMI 18](http://rpg.ifi.uzh.ch/docs/PAMI17_Gallego.pdf)
+<a name="deepslam"></a>
 ## Deep SLAM 
 - CodeSLAM - Learning a Compact, Optimisable Representation for Dense Visual SLAM
     
