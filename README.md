@@ -30,26 +30,37 @@ ___
 <a name="algorithms"></a>
 ## Algorithms
 ### Initialization
-
+- #### Homography
+- #### Fundemental
+- #### SFM
 ### Tracking
-- #### Data Association
+- #### Data Association : How to Define Data Selection, Match, Define Error 
   - ##### Direct Dense
   - ##### Direct Sparse
   - ##### Feature (Sparse)
     - ###### Corner Selection
     - ###### Descriptors
   - ##### Feature Match
-- #### Pose Estimation 
-  - ##### Motion Prior 
+- #### Motion Prior
+  - ##### Constant Velocity Model
+  - ##### Decaying Velocity Model
+  - ##### [IMU Propagation](#imu)
+  - ##### Using Prev Pose
+- #### Pose Estimation : How to minimize Error
+  - ##### PnP : Perspective N Points
+  - ##### Motion Only BA : **Coarse**-Fine 
+  - ##### Local BA : Coarse-**Fine**
+    - ###### Sliding Window : Continous N Frame window
+    - ###### Topological : Releated Keyframes 
 
 ### Mapping
 - #### Map Type
 - #### Map Generation
-- #### Map Manage & Optimization 
 
 ### Global Consistency 
-- #### Failure Recovery
-- #### Loop Closure
+- #### Relocalization
+- #### Pose Graph Optimization : Loop Closure 
+- #### Place Recognition 
 
 <a name="models"></a>
 ## Sensor Models 
@@ -57,8 +68,11 @@ ___
 - [Image_Undistorter](https://github.com/ethz-asl/image_undistort)
 - [Camera Models](https://github.com/gaowenliang/-camera_model) - modified version of CamOdoCal 
 - ROS Image Proc => Wiki Documentation of ROS [image pipeline](http://wiki.ros.org/image_pipeline/CameraInfo) 
+<a name="imu"></a>
 ### IMU Models
-- 
+- #### Noise Model
+- #### IMU Propagation
+- #### IMU Preintegration
 
 <a name="calibration"></a>
 ## Calibration
@@ -98,10 +112,12 @@ ___
 - [Parallel Tracking and Mapping(PTAM) for Small AR Workspaces, Georg Klein, David Murray, ISMAR 07](https://www.robots.ox.ac.uk/~vgg/rg/papers/klein_murray__2007__ptam.pdf)
 - [MonoSLAM, AJ Davison, Reid, Molton, Stasse, PAMI 07](https://www.doc.ic.ac.uk/~ajd/Publications/davison_etal_pami2007.pdf) 
 - [DTAM: Dense Tracking and Mapping in Real-Time, RA Newcombe, Steven J. Lovegrove, AJ Davison, ICCV 11](https://www.robots.ox.ac.uk/~vgg/rg/papers/newcombe_davison__2011__dtam.pdf)
+- Dense Visual SLAM for RGB-D Camera
 - [Semi-Dense Visual Odometry, J. Engel, J. Sturm, AJ Davision, ICCV 13](https://vision.in.tum.de/_media/spezial/bib/engel2013iccv.pdf)
 - [SVO: Fast Semi-Direct Monocular Visual Odometry, C Forster, M. Pizzoli, D. Scarammuzza, ICRA 14](https://www.ifi.uzh.ch/dam/jcr:e9b12a61-5dc8-48d2-a5f6-bd8ab49d1986/ICRA14_Forster.pdf) 
 - [LSD-SLAM: Large-Scale Direct Monocular SLAM, J. Engel, T.Schoeps, AJ Davision, ECCV 14](https://vision.in.tum.de/_media/spezial/bib/engel14eccv.pdf)
 - [REMODE, M. Pizzoli, C. Forster, D. Scrammuza, ICRA 14](http://rpg.ifi.uzh.ch/docs/ICRA14_Pizzoli.pdf) 
+- Dense Visual-Inertial Odometry for Tracking of Aggressive Motions
 - [ORB_SLAM, R. Mur-Artal, J. Montiel,  JD Tardós, IEEE TRO 15](https://arxiv.org/pdf/1502.00956)
 - [OKVIS, S. Leutenegger, S. Lynen, M. Bosse, R. Siegwart, P.Furgale, IJRR 15](http://www.roboticsproceedings.org/rss09/p37.pdf)
 - [DPPTAM, Concha, Alejo and Civera, Javier, IROS 15](http://webdiis.unizar.es/~jcivera/papers/concha_civera_iros15.pdf)
@@ -111,12 +127,16 @@ ___
 - [ORB_SLAM2, R Mur-Artal, JD Tardós, IEEE TRO 17](https://arxiv.org/pdf/1610.06475.pdf)
 - [Direct Sparse Odometry, J. Engel, V. Kltun, AJ Davison, PAMI 17](https://vision.in.tum.de/research/vslam/dso)
 - [Real-time VIO for Event Cameras using Keyframe-based Nonlinear Optimization, H.Rebecq, T. Horstschaefer, D. Scaramuzza, BMVC 17](http://rpg.ifi.uzh.ch/docs/BMVC17_Rebecq.pdf)    
+- ElasticFusion: Dense SLAM Without A Pose Graph
+- Dense RGB-D-Inertial SLAM with Map Deformations 
 - [SVO for Monocular and Multi-Camera Systems, C. Forster, Z. Zhang, M. Gassner, M. Werlberger, D. Scaramuzza, IEEE TRO 17](http://rpg.ifi.uzh.ch/docs/TRO16_Forster-SVO.pdf)
 - [VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator, T. Qin, Tong and Li, Peiliang, Shen, Shaojie, IEEE TRO 18](https://arxiv.org/pdf/1708.03852) 
 - [Ultimate SLAM?
 Combining Events, Images, and IMU for Robust
 Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Horstschaefer, D. Scaramuzza, IEEE RA-L 18](https://arxiv.org/pdf/1709.06310.pdf)
 - [Event-based, 6-DOF Camera Tracking from Photometric Depth Maps, Gallego, Jon E. A. Lund, E. Mueggler, H.Rebecq, T. Delbruck, D. Scaramuzza, PAMI 18](http://rpg.ifi.uzh.ch/docs/PAMI17_Gallego.pdf)
+## Deep SLAM 
+- CodeSLAM - Learning a Compact, Optimisable Representation for Dense Visual SLAM
     
 <a name="evaluation"></a>
 ## Evaluation
@@ -178,7 +198,13 @@ Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Hors
 
 <a name="visualization"></a>
 ## Visualization
+### Visualize GN-Optimization 
+### Visualize Pose & 3D Map 
+### Visualize Tracking
 
 <a name="app"></a>
 ## Applications
-- [Todo] 
+- ARKit : 
+- ARCore : 
+- VR : 
+- Robotics :  
