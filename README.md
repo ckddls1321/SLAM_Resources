@@ -29,11 +29,11 @@ ___
 
 <a name="algorithms"></a>
 ## Algorithms
-### Initialization
+- ### Initialization
 
-### Tracking
-#### Data Association
-##### Direct Dense
+- ### Tracking
+- #### Data Association
+- ##### Direct Dense
 ##### Direct Sparse
 ##### Feature (Sparse)
 ###### Corner Selection
