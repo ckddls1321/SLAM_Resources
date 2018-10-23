@@ -191,6 +191,7 @@ Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Hors
 <a name="lecture"></a>
 ## Lectures
 - [Multiple View Geometry, TUM, 2014](https://www.youtube.com/watch?v=RDkwklFGMfo&list=PLTBdjV_4f-EJn6udZ34tht9EVIW7lbeo4)
+- [Roboot Mapping, University Freiburg, 2013](https://www.youtube.com/watch?v=U6vr3iNrwRA&list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_)
 ## Videos
 - [ARKit: Understanding ARKit Tracking and Dtection](https://developer.apple.com/videos/play/wwdc2018/610/) 
 
