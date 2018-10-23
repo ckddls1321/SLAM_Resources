@@ -15,8 +15,7 @@ Also reference pages are listed on [Pages collect resources for SLAM](#slamlist)
 - [Datasets and Simulators](#datasets)
 - [Calibration](#calibration)
 - [Evaluation](#evaluation)
-- [Workshops](#workshops)
-- [Tutorials](#tutorials)
+- [Workshops&Tutorials](#workshops)
 - [Survey](#survey)
 - [Papers](#papers)
 - [Books](#books)
@@ -159,13 +158,10 @@ Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Hors
     - [2013 KITTI Dataset](http://www.cvlibs.net/datasets/kitti/index.php)
     
 <a name="workshops"></a>
-## Workshops 
+## Workshops & Tutorials
 - [2014 CVPR Workshop and Tutorials](http://frc.ri.cmu.edu/~kaess/vslam_cvpr14/)
 - [2016 ICRA SLAM Tutorials](http://www.dis.uniroma1.it/~labrococo/tutorial_icra_2016/)
 
-<a name="tutorials"></a>
-## Tutorials
-- [TODO-later]
 
 <a name="books"></a>
 ## Books
