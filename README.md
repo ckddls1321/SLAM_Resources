@@ -21,7 +21,7 @@ Also reference pages are listed on [Pages collect resources for SLAM](#slamlist)
 - [Deep Learning Related SLAM](#deepslam)
 - [Semantic SLAM - Object level SLAM](#semanticslam)
 - [Books](#books)
-- [Pages collect resources for SLAM](#slamlist)
+- [Pages : collect resources for SLAM](#slamlist)
 - [Toolkit](#toolkit)
 - [Videos, Lectures](#lecture)
 - [Visualization](#visualization)
@@ -34,6 +34,7 @@ ___
 - #### Homography
 - #### Fundemental
 - #### SFM
+- #### Visual-Inertial Alignment 
 ### Tracking
 - #### Data Association : How to Define Data Selection, Match, Define Error 
   - ##### Direct Dense
@@ -64,7 +65,7 @@ ___
 - #### Place Recognition 
 
 ### Probabilistic Graphical Models 
-- #### 
+- #### Factor Graph 
 
 <a name="models"></a>
 ## Sensor Models 
@@ -146,25 +147,34 @@ Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Hors
 
 <a name="deepslam"></a>
 ## Deep SLAM : Depth Estimation, Pose Estimation, Feature Matching, Backend etc... What ever use Deep Neural Network
+- [DeepVO: A Deep Learning approach for Monocular Visual Odometry, Vikram Mohanty, Shubh Agrawal, Shaswat Datta, Arna Ghosh, Vishnu D. Sharma, Debashish Chakravarty](https://arxiv.org/pdf/1611.06069.pdf)
 - [CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction, CVPR, 2017, Keisuke Tateno, Federico Tombari, Iro Laina, Nassir Navab](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tateno_CNN-SLAM_Real-Time_Dense_CVPR_2017_paper.pdf)
 - [Deep Virtual Stereo Odometry: Leveraging Deep Depth Prediction for Monocular Direct Sparse Odometry, Nan Yang, Rui Wang, J¨org St¨uckler, Daniel Cremers](http://openaccess.thecvf.com/content_ECCV_2018/papers/Nan_Yang_Deep_Virtual_Stereo_ECCV_2018_paper.pdf)
-- [UnDeepVO: Monocular Visual Odometry through Unsupervised Deep Learning]()
+- [UnDeepVO: Monocular Visual Odometry through Unsupervised Deep Learning](https://arxiv.org/pdf/1709.06841.pdf)
 - [SfMLearner++: Learning Monocular Depth & Ego-Motion using Meaningful Geometric Constraints, Vignesh Prasad, Brojeshwar Bhowmick](https://arxiv.org/pdf/1812.08370.pdf)
 - [CNN-SVO: Improving the Mapping in Semi-Direct Visual OdometryUsing Single-Image Depth Prediction, Shing Yan Loo, Ali Jahan, Amiri, Syamsiah Mashohor, Sai Hong Tang and Hong Zhang1](https://arxiv.org/pdf/1810.01011.pdf)
+- [Learning monocular visual odometry with dense 3D mapping from dense 3D flow, Cheng Zhao, Li Sun, Pulak Purkait, Tom Duckett and Rustam Stolkin1](https://arxiv.org/pdf/1803.02286.pdf)
 - [Learning to Prevent Monocular SLAM Failure using Reinforcement Learning, Vignesh Prasad, Karmesh Yadav, Rohitashva Singh Saurabh, Swapnil Daga, Nahas Pareekutty, K. Madhava Krishna. Balaraman Ravindran, Brojeshwar Bhowmick](https://arxiv.org/pdf/1812.09647.pdf)
 - CodeSLAM - Learning a Compact, Optimisable Representation for Dense Visual SLAM, Michael Bloesch, Jan Czarnowski, Ronald Clark, Stefan Leutenegger, Andrew J. Davison.
 - LS-Net: Learning to Solve Nonlinear Least Squares for Monocular Stereo. ECCV, 2018, Ronald Clark, Michael Bloesch, Jan Czarnowski, Stefan Leutenegger, Andrew J. Davison. 
 - [DeepTAM: Deep Tracking and Mapping, Huizhong Zhou, Benjamin Ummenhofer, Thomas Brox](https://arxiv.org/pdf/1808.01900.pdf)
+- [Deep Auxiliary Learning for Visual Localization and Odometry, Abhinav Valada, Noha Radwan, Wolfram Burgard](http://ais.informatik.uni-freiburg.de/publications/papers/valada18icra.pdf)
+- [Mask-SLAM: Robust feature-based monocular SLAM by masking using semantic segmentation, CVPR 2018, Masaya Kaneko Kazuya Iwami Toru Ogawa Toshihiko Yamasaki Kiyoharu Aiza](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Kaneko_Mask-SLAM_Robust_Feature-Based_CVPR_2018_paper.pdf)
+- [MagicVO: End-to-End Monocular Visual Odometry through Deep Bi-directional Recurrent Convolutional Neural Network, Jian Jiao, Jichao Jiao, Yaokai Mo, Weilun Liu, Zhongliang Deng](https://arxiv.org/ftp/arxiv/papers/1811/1811.10964.pdf)
+- [Global Pose Estimation with an Attention-based Recurrent Network](https://arxiv.org/pdf/1802.06857.pdf)
+- [Geometric Consistency for Self-Supervised End-to-End Visual Odometry, CVPR 2018, Ganesh Iyer, J. Krishna Murthy, Gunshi Gupta1, K. Madhava Krishna1, Liam Paull](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Iyer_Geometric_Consistency_for_CVPR_2018_paper.pdf)
+- [DepthNet: A Recurrent Neural Network Architecture for Monocular Depth Prediction, CVPR 2018, Arun CS Kumar Suchendra M. Bhandarkar, Mukta Prasad](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Kumar_DepthNet_A_Recurrent_CVPR_2018_paper.pdf)
+
 - DeepFusion: Real-Time Dense 3D Reconstruction for Monocular SLAM using Single-View Depth and Gradient Predictions. ICRA, 2019, Tristan Laidlow, Jan Czarnowski, Stefan Leutenegger. 
 - KO-Fusion: Dense Visual SLAM with Tightly-Coupled Kinematic and Odometric Tracking. ICRA, 2019, Charlie Houseago, Michael Bloesch, Stefan Leutenegger. 
 - DF-SLAM: A Deep-Learning Enhanced Visual SLAM System based on Deep Local Features, Rong Kang, Xueming Li, Yang Liu, Xiao Liu, Jieqi Shi 
-- [MagicVO: End-to-End Monocular Visual Odometry through Deep Bi-directional Recurrent Convolutional Neural Network, Jian Jiao, Jichao Jiao, Yaokai Mo, Weilun Liu, Zhongliang Deng](https://arxiv.org/ftp/arxiv/papers/1811/1811.10964.pdf)
 
 
 <a name="semanticslam"></a>
 ## Semantic SLAM, Object-level, Using Semantic Information
 - [Probabilistic Data Association for Semantic SLAM, Sean L. Bowman Nikolay Atanasov Kostas Daniilidis George J. Pappas](https://www.cis.upenn.edu/~kostas/mypub.dir/bowman17icra.pdf)
 - Fusion++: Volumetric Object-Level SLAM. 3DV, 2018, John McCormac, Ronald Clark, Michael Bloesch, Stefan Leutenegger, Andrew J. Davison. 
+- [DynSLAM: Simultaneous Localization and Mapping in Dynamic Environments,Ioan Andrei Brsan and Peidong Liu and Marc Pollefeys and Andreas Geiger](https://arxiv.org/pdf/1806.05620.pdf) 
 
 
 <a name="evaluation"></a>
@@ -190,16 +200,20 @@ Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Hors
 <a name="workshops"></a>
 ## Workshops & Tutorials
 - [2014 CVPR Workshop and Tutorials](http://frc.ri.cmu.edu/~kaess/vslam_cvpr14/)
+- [2015 ICCV Imperial college Workshop](http://wp.doc.ic.ac.uk/thefutureofslam/)
 - [2016 ICRA SLAM Tutorials](http://www.dis.uniroma1.it/~labrococo/tutorial_icra_2016/)
-
+- 2017 CVPR Tutorials - pages removed
+- [2018 CVPR Tutorials - First Deep SLAM Workshop](http://visualslam.ai/)
 
 <a name="books"></a>
 ## Books
-- [slambook-not translated yet](), [source](https://github.com/gaoxiang12/slambook)
+- [slambook-no en,kr translation](), [source](https://github.com/gaoxiang12/slambook)
 
 <a name="slamlist"></a>
 ## resource pages that I refer to create this slam list pages 
 - [awesome-SLAM-list](https://github.com/OpenSLAM/awesome-SLAM-list)
+- [SFM-Visual-SLAM](https://github.com/marknabil/SFM-Visual-SLAM)
+- [Event Vision Realted Resources - ETH Zurich](https://github.com/uzh-rpg/event-based_vision_resources)
 
 <a name="toolkit"></a>
 ## Toolkits and Libraries for SLAM
