@@ -19,6 +19,7 @@ Also reference pages are listed on [Pages collect resources for SLAM](#slamlist)
 - [Survey](#survey)
 - [Papers](#papers)
 - [Deep Learning Related SLAM](#deepslam)
+- [Semantic SLAM - Object level SLAM](#semanticslam)
 - [Books](#books)
 - [Pages collect resources for SLAM](#slamlist)
 - [Toolkit](#toolkit)
@@ -62,6 +63,9 @@ ___
 - #### Pose Graph Optimization : Loop Closure 
 - #### Place Recognition 
 
+### Probabilistic Graphical Models 
+- #### 
+
 <a name="models"></a>
 ## Sensor Models 
 ### Camera Models & Undistorttion Models
@@ -88,6 +92,8 @@ ___
 - [Kalibr](https://github.com/ethz-asl/kalibr)
 - [Vicalib](https://github.com/arpg/vicalib)
 - [Inervis Toolbox-Matlab](http://home.deec.uc.pt/~jlobo/InerVis_WebIndex/InerVis_Toolbox.html)
+### Visual-Lidar Calibration : 
+### Lidar-IMU Calibration 
 ### IMU Calibration - Not sure... 
 - [IMUSensorModels-Data_Analysis_Tools](https://github.com/hanley6/IMUSensorModels)
 - [Kalibr_allan](https://github.com/rpng/kalibr_allan)
@@ -135,10 +141,32 @@ ___
 Combining Events, Images, and IMU for Robust
 Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Horstschaefer, D. Scaramuzza, IEEE RA-L 18](https://arxiv.org/pdf/1709.06310.pdf)
 - [Event-based, 6-DOF Camera Tracking from Photometric Depth Maps, Gallego, Jon E. A. Lund, E. Mueggler, H.Rebecq, T. Delbruck, D. Scaramuzza, PAMI 18](http://rpg.ifi.uzh.ch/docs/PAMI17_Gallego.pdf)
+- [Loosely-Coupled Semi-Direct Monocular SLAM, Seong Hun Lee and Javier Civera, IEEE Robotics and Automation Letters]
+(https://arxiv.org/pdf/1807.10073.pdf)
+
 <a name="deepslam"></a>
-## Deep SLAM 
-- CodeSLAM - Learning a Compact, Optimisable Representation for Dense Visual SLAM
-    
+## Deep SLAM : Depth Estimation, Pose Estimation, Feature Matching, Backend etc... What ever use Deep Neural Network
+- [CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction, CVPR, 2017, Keisuke Tateno, Federico Tombari, Iro Laina, Nassir Navab](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tateno_CNN-SLAM_Real-Time_Dense_CVPR_2017_paper.pdf)
+- [Deep Virtual Stereo Odometry: Leveraging Deep Depth Prediction for Monocular Direct Sparse Odometry, Nan Yang, Rui Wang, J¨org St¨uckler, Daniel Cremers](http://openaccess.thecvf.com/content_ECCV_2018/papers/Nan_Yang_Deep_Virtual_Stereo_ECCV_2018_paper.pdf)
+- [UnDeepVO: Monocular Visual Odometry through Unsupervised Deep Learning]()
+- [SfMLearner++: Learning Monocular Depth & Ego-Motion using Meaningful Geometric Constraints, Vignesh Prasad, Brojeshwar Bhowmick](https://arxiv.org/pdf/1812.08370.pdf)
+- [CNN-SVO: Improving the Mapping in Semi-Direct Visual OdometryUsing Single-Image Depth Prediction, Shing Yan Loo, Ali Jahan, Amiri, Syamsiah Mashohor, Sai Hong Tang and Hong Zhang1](https://arxiv.org/pdf/1810.01011.pdf)
+- [Learning to Prevent Monocular SLAM Failure using Reinforcement Learning, Vignesh Prasad, Karmesh Yadav, Rohitashva Singh Saurabh, Swapnil Daga, Nahas Pareekutty, K. Madhava Krishna. Balaraman Ravindran, Brojeshwar Bhowmick](https://arxiv.org/pdf/1812.09647.pdf)
+- CodeSLAM - Learning a Compact, Optimisable Representation for Dense Visual SLAM, Michael Bloesch, Jan Czarnowski, Ronald Clark, Stefan Leutenegger, Andrew J. Davison.
+- LS-Net: Learning to Solve Nonlinear Least Squares for Monocular Stereo. ECCV, 2018, Ronald Clark, Michael Bloesch, Jan Czarnowski, Stefan Leutenegger, Andrew J. Davison. 
+- [DeepTAM: Deep Tracking and Mapping, Huizhong Zhou, Benjamin Ummenhofer, Thomas Brox](https://arxiv.org/pdf/1808.01900.pdf)
+- DeepFusion: Real-Time Dense 3D Reconstruction for Monocular SLAM using Single-View Depth and Gradient Predictions. ICRA, 2019, Tristan Laidlow, Jan Czarnowski, Stefan Leutenegger. 
+- KO-Fusion: Dense Visual SLAM with Tightly-Coupled Kinematic and Odometric Tracking. ICRA, 2019, Charlie Houseago, Michael Bloesch, Stefan Leutenegger. 
+- DF-SLAM: A Deep-Learning Enhanced Visual SLAM System based on Deep Local Features, Rong Kang, Xueming Li, Yang Liu, Xiao Liu, Jieqi Shi 
+- [MagicVO: End-to-End Monocular Visual Odometry through Deep Bi-directional Recurrent Convolutional Neural Network, Jian Jiao, Jichao Jiao, Yaokai Mo, Weilun Liu, Zhongliang Deng](https://arxiv.org/ftp/arxiv/papers/1811/1811.10964.pdf)
+
+
+<a name="semanticslam"></a>
+## Semantic SLAM, Object-level, Using Semantic Information
+- [Probabilistic Data Association for Semantic SLAM, Sean L. Bowman Nikolay Atanasov Kostas Daniilidis George J. Pappas](https://www.cis.upenn.edu/~kostas/mypub.dir/bowman17icra.pdf)
+- Fusion++: Volumetric Object-Level SLAM. 3DV, 2018, John McCormac, Ronald Clark, Michael Bloesch, Stefan Leutenegger, Andrew J. Davison. 
+
+
 <a name="evaluation"></a>
 ## Evaluation
 - [Python package for evaluation of odometry and SLAM](https://github.com/MichaelGrupp/evo)
