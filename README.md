@@ -164,10 +164,10 @@ Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Hors
 - [Global Pose Estimation with an Attention-based Recurrent Network](https://arxiv.org/pdf/1802.06857.pdf)
 - [Geometric Consistency for Self-Supervised End-to-End Visual Odometry, CVPR 2018, Ganesh Iyer, J. Krishna Murthy, Gunshi Gupta1, K. Madhava Krishna1, Liam Paull](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Iyer_Geometric_Consistency_for_CVPR_2018_paper.pdf)
 - [DepthNet: A Recurrent Neural Network Architecture for Monocular Depth Prediction, CVPR 2018, Arun CS Kumar Suchendra M. Bhandarkar, Mukta Prasad](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Kumar_DepthNet_A_Recurrent_CVPR_2018_paper.pdf)
-
 - DeepFusion: Real-Time Dense 3D Reconstruction for Monocular SLAM using Single-View Depth and Gradient Predictions. ICRA, 2019, Tristan Laidlow, Jan Czarnowski, Stefan Leutenegger. 
 - KO-Fusion: Dense Visual SLAM with Tightly-Coupled Kinematic and Odometric Tracking. ICRA, 2019, Charlie Houseago, Michael Bloesch, Stefan Leutenegger. 
 - DF-SLAM: A Deep-Learning Enhanced Visual SLAM System based on Deep Local Features, Rong Kang, Xueming Li, Yang Liu, Xiao Liu, Jieqi Shi 
+- 
 
 
 <a name="semanticslam"></a>
@@ -203,7 +203,18 @@ Visual SLAM in HDR and High Speed Scenarios, T. Rosinol Vidal, H.Rebecq, T. Hors
 - [2015 ICCV Imperial college Workshop](http://wp.doc.ic.ac.uk/thefutureofslam/)
 - [2016 ICRA SLAM Tutorials](http://www.dis.uniroma1.it/~labrococo/tutorial_icra_2016/)
 - 2017 CVPR Tutorials - pages removed
+- [2018 ECCV Visual Localization Workshop](https://sites.google.com/view/visual-localization-eccv-2018/home)
+- [2018 ECCV Workshop](https://eccv2018.org/program/workshops_tutorials/) 
+- [2018 IROS Workshop - Unconventional Sensing and Processing
+for Robotic Visual Perception, No Material..](http://iros2018-uvsp.org/) 
+- [2018 ECCV 3D Reconstruction meets Semantics](http://trimbot2020.webhosting.rug.nl/events/3drms/date-schedule/) 
 - [2018 CVPR Tutorials - First Deep SLAM Workshop](http://visualslam.ai/)
+- 2018: http://cvpr2018.thecvf.com/program/tutorials
+- 2017: http://cvpr2017.thecvf.com/program/tutorials
+- 2016: http://cvpr2016.thecvf.com/program/tutorials
+- 2015: http://www.pamitc.org/cvpr15/tutorials.php
+- 2014: http://www.pamitc.org/cvpr14/tutorials.php
+- 2013: http://www.pamitc.org/cvpr13/tutorials.php
 
 <a name="books"></a>
 ## Books
