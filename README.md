@@ -118,6 +118,7 @@ ___
 - [Scalable monocular SLAM, E. Eade,T. Drummond, CVPR 06](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.141.7753&rep=rep1&type=pdf)
 - [Parallel Tracking and Mapping(PTAM) for Small AR Workspaces, Georg Klein, David Murray, ISMAR 07](https://www.robots.ox.ac.uk/~vgg/rg/papers/klein_murray__2007__ptam.pdf)
 - [MonoSLAM, AJ Davison, Reid, Molton, Stasse, PAMI 07](https://www.doc.ic.ac.uk/~ajd/Publications/davison_etal_pami2007.pdf) 
+- [Accurate Quadrifocal Tracking for Robust 3D Visual Odometry, IEEE RA-L 07](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.331.9823&rep=rep1&type=pdf)
 - [DTAM: Dense Tracking and Mapping in Real-Time, RA Newcombe, Steven J. Lovegrove, AJ Davison, ICCV 11](https://www.robots.ox.ac.uk/~vgg/rg/papers/newcombe_davison__2011__dtam.pdf)
 - Dense Visual SLAM for RGB-D Camera
 - [Semi-Dense Visual Odometry, J. Engel, J. Sturm, AJ Davision, ICCV 13](https://vision.in.tum.de/_media/spezial/bib/engel2013iccv.pdf)
